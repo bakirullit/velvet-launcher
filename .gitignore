@@ -1,0 +1,69 @@
+# ========================
+# Python
+# ========================
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environment
+.venv/
+venv/
+env/
+ENV/
+
+# Python packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# ========================
+# Logs
+# ========================
+*.log
+
+# ========================
+# IDE / Editors
+# ========================
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ========================
+# OS files
+# ========================
+.DS_Store
+Thumbs.db
+
+# ========================
+# Environment variables
+# ========================
+.env
+
+# ========================
+# Minecraft launcher cache
+# ========================
+.minecraft/
+instances/
+runtime/
+natives/
+libraries/
+
+versions/
+
+# User configs
+config.json
+accounts.json
+
+# ========================
+# Testing
+# ========================
+.coverage
+htmlcov/
+.pytest_cache/
+
+# ========================
+# Misc
+# ========================
+*.sqlite3
