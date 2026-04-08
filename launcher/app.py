@@ -2,10 +2,11 @@
 import toga
 from toga.style import Pack
 from toga.style.pack import COLUMN, ROW
-from launcher.pages import home, settings, containers
-from launcher.state import LauncherState
-
+from launcher.ui.pages import settings, containers, home
+from launcher.states import LauncherState
 from launcher.ui import build_sidebar
+
+
 class VelvetLauncher(toga.App):
     def _create_impl(self):
         factory_app = self.factory.App
@@ -53,3 +54,4 @@ def run_launcher():
         "org.velvet.launcher"
     )
     app.main_loop()
+

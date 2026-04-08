@@ -1,0 +1,35 @@
+{
+  "version": "1.0",
+  "launcher": {
+    "name": "Velvet Launcher",
+    "version": "0.1.0"
+  },
+  "settings": {
+    "java": {
+      "path": "java",
+      "memory_min_mb": 512,
+      "memory_max_mb": 2048,
+      "jvm_args": "-XX:+UseG1GC -XX:MaxGCPauseMillis=200"
+    },
+    "appearance": {
+      "theme": "dark",
+      "window_width": 1400,
+      "window_height": 900
+    },
+    "updates": {
+      "auto_update": true,
+      "check_on_startup": true
+    }
+  },
+  "paths": {
+    "containers_dir": "~/.velvet",
+    "profiles_dir": "~/.velvet/profiles",
+    "mods_cache": "~/.velvet/.cache/mods"
+  },
+  "defaults": {
+    "new_container": {
+      "memory_max_mb": 2048,
+      "memory_min_mb": 512
+    }
+  }
+}
